@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:id="@+id/auth_navigation"
+   app:startDestination="@id/sign_in">
+
+   <fragment
+      android:id="@+id/sign_in"
+      android:name="com.opensystem.smallwork.ui.fragments.auth.signin.SignInFrag"
+      android:label="fragment_sign_in"
+      tools:layout="@layout/fragment_sign_in">
+      <action
+         android:id="@+id/action_sign_in_to_login"
+         app:destination="@id/loginFrag" />
+      <action
+         android:id="@+id/action_sign_in_to_sign_up"
+         app:destination="@id/signUpFrag" />
+   </fragment>
+
+   <fragment
+      android:id="@+id/loginFrag"
+      android:name="com.opensystem.smallwork.ui.fragments.auth.login.LoginFrag"
+      android:label="fragment_login"
+      tools:layout="@layout/fragment_login" />
+
+   <fragment
+      android:id="@+id/signUpFrag"
+      android:name="com.opensystem.smallwork.ui.fragments.auth.signup.SignUpFrag"
+      android:label="fragment_sign_up"
+      tools:layout="@layout/fragment_sign_up" />
+
+</navigation>

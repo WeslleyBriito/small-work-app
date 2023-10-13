@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical">
+
+   <include layout="@layout/msg_empty_list_dark"/>
+
+   <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="@dimen/margin_size3"
+      android:layout_marginEnd="@dimen/margin_size3"
+      android:layout_marginBottom="@dimen/margin_size6"
+      android:gravity="center"
+      android:orientation="horizontal">
+
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginEnd="@dimen/margin_size3"
+         android:layout_weight="1"
+         android:orientation="vertical">
+
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            tools:text="28 contratos com 6 avaliações" />
+
+         <RatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size1"
+            android:numStars="5"
+            android:rating="4.5" />
+
+      </LinearLayout>
+
+      <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:orientation="vertical">
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_super"
+            tools:text="4.6" />
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overall"
+            android:textSize="@dimen/text_size3" />
+
+      </LinearLayout>
+
+   </LinearLayout>
+
+   <include layout="@layout/div" />
+
+   <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/ratingRecycler"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="@dimen/margin_size6" />
+
+</LinearLayout>

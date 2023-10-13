@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/msg_empty_list_dark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="www.developer.com.br"
+        android:drawablePadding="@dimen/margin_size2"
+        android:padding="@dimen/margin_size3"
+        android:textSize="@dimen/text_size4"
+        android:gravity="center|start"
+        app:drawableStartCompat="@drawable/ic_browser"
+        app:drawableTint="@color/color_primary"
+        android:textColor="@color/color_primary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="weslley@emal.com"
+        android:drawablePadding="@dimen/margin_size2"
+        android:padding="@dimen/margin_size3"
+        android:textSize="@dimen/text_size4"
+        android:gravity="center|start"
+        app:drawableStartCompat="@drawable/ic_email"
+        app:drawableTint="@color/color_primary"
+        android:textColor="@color/color_primary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="+55 51 99704-3104 "
+        android:drawablePadding="@dimen/margin_size2"
+        android:padding="@dimen/margin_size3"
+        android:textSize="@dimen/text_size4"
+        android:gravity="center|start"
+        app:drawableStartCompat="@drawable/ic_whatsapp"
+        app:drawableTint="@color/color_primary"
+        android:textColor="@color/color_primary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="+55 51 9704-3104 "
+        android:drawablePadding="@dimen/margin_size2"
+        android:padding="@dimen/margin_size3"
+        android:layout_marginBottom="@dimen/margin_size3"
+        android:textSize="@dimen/text_size4"
+        android:gravity="center|start"
+        app:drawableStartCompat="@drawable/ic_phone_call"
+        app:drawableTint="@color/color_primary"
+        android:textColor="@color/color_primary"/>
+
+    <include layout="@layout/div"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/social_networks"
+        android:drawablePadding="@dimen/margin_size2"
+        android:layout_marginTop="@dimen/margin_size3"
+        android:padding="@dimen/margin_size3"
+        android:textSize="@dimen/text_size4"
+        android:gravity="center|start"
+        android:textColor="@color/color_primary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linkedin"
+        android:drawablePadding="@dimen/margin_size2"
+        android:padding="@dimen/margin_size3"
+        android:textSize="@dimen/text_size4"
+        android:gravity="center|start"
+        app:drawableStartCompat="@drawable/ic_linkedin"
+        app:drawableTint="@color/color_primary"
+        android:textColor="@color/color_primary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instagram"
+        android:drawablePadding="@dimen/margin_size2"
+        android:padding="@dimen/margin_size3"
+        android:textSize="@dimen/text_size4"
+        android:gravity="center|start"
+        app:drawableStartCompat="@drawable/ic_instagram"
+        app:drawableTint="@color/color_primary"
+        android:textColor="@color/color_primary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facebook"
+        android:drawablePadding="@dimen/margin_size2"
+        android:padding="@dimen/margin_size3"
+        android:textSize="@dimen/text_size4"
+        android:gravity="center|start"
+        app:drawableTint="@color/color_primary"
+        android:textColor="@color/color_primary"
+        app:drawableStartCompat="@drawable/ic_facebook"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/twitter"
+        android:drawablePadding="@dimen/margin_size2"
+        android:padding="@dimen/margin_size3"
+        android:textSize="@dimen/text_size4"
+        android:gravity="center|start"
+        app:drawableStartCompat="@drawable/ic_twitter"
+        app:drawableTint="@color/color_primary"
+        android:textColor="@color/color_primary"/>
+
+</LinearLayout>

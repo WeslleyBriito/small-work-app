@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:gravity="center"
+   android:orientation="vertical">
+
+   <LinearLayout
+      android:id="@+id/linearLayout"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginEnd="16dp"
+      android:background="@drawable/bg_dialog_edit_profile_data"
+      android:gravity="center"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+      <TextView
+         android:id="@+id/txt_back"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="@dimen/margin_size4"
+         android:text="@string/address_update"
+         android:textAlignment="center"
+         android:textColor="@color/black"
+         android:textSize="@dimen/text_size7"
+         app:drawableEndCompat="@drawable/ic_cancel"
+         app:drawableTint="@color/black" />
+
+      <com.google.android.material.textfield.TextInputLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:hintTextAppearance="@style/HintText">
+
+         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_postal_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size4"
+            android:layout_marginEnd="@dimen/margin_size4"
+            android:backgroundTint="@android:color/transparent"
+            android:gravity="bottom"
+            android:hint="@string/postal_code"
+            android:maxLength="9"
+            android:inputType="number"/>
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+         <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:hintTextAppearance="@style/HintText">
+
+            <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/edit_city"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="@dimen/margin_size4"
+               android:layout_marginEnd="@dimen/margin_size4"
+               android:backgroundTint="@android:color/transparent"
+               android:gravity="bottom"
+               android:hint="@string/city"
+               android:inputType="textPersonName"
+               tools:text="teste" />
+
+         </com.google.android.material.textfield.TextInputLayout>
+
+         <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/HintText">
+
+            <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/edit_state"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginEnd="@dimen/margin_size4"
+               android:backgroundTint="@android:color/transparent"
+               android:gravity="bottom"
+               android:hint="@string/state"
+               android:inputType="textPersonName"
+               tools:text="RS" />
+
+         </com.google.android.material.textfield.TextInputLayout>
+
+      </LinearLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:hintTextAppearance="@style/HintText">
+
+         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_nbh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size4"
+            android:layout_marginEnd="@dimen/margin_size4"
+            android:backgroundTint="@android:color/transparent"
+            android:gravity="bottom"
+            android:hint="@string/neighborhood"
+            android:inputType="textPersonName"
+            tools:text="teste" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:hintTextAppearance="@style/HintText">
+
+         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_street"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size4"
+            android:layout_marginEnd="@dimen/margin_size4"
+            android:backgroundTint="@android:color/transparent"
+            android:gravity="bottom"
+            android:hint="@string/street"
+            android:inputType="textPersonName"
+            tools:text="teste" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:hintTextAppearance="@style/HintText">
+
+         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size4"
+            android:layout_marginEnd="@dimen/margin_size4"
+            android:backgroundTint="@android:color/transparent"
+            android:gravity="bottom"
+            android:hint="@string/number"
+            android:inputType="number"
+            tools:text="80" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+         android:id="@+id/til_profession"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:hintTextAppearance="@style/HintText">
+
+         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_comp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size4"
+            android:layout_marginEnd="@dimen/margin_size4"
+            android:layout_marginBottom="@dimen/margin_size4"
+            android:backgroundTint="@android:color/transparent"
+            android:gravity="bottom"
+            android:hint="@string/complement"
+            android:inputType="textPersonName"
+            tools:text="teste" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <View
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_marginTop="@dimen/margin_size9"
+         android:background="@color/black" />
+
+      <TextView
+         android:id="@+id/txt_confirm"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="@dimen/margin_size4"
+         android:text="@string/confirm"
+         android:textAlignment="center"
+         android:textAllCaps="true"
+         android:textColor="@color/black"
+         android:textSize="@dimen/text_size5" />
+
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

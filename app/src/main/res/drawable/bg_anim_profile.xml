@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="4500">
+        <shape>
+            <gradient
+                android:type="radial"
+                android:startColor="@color/color_primary"
+                android:endColor="@color/color_primary_dark"
+                android:gradientRadius="300%p"/>
+            <corners
+                android:bottomLeftRadius="@dimen/radius_card"
+                android:bottomRightRadius="@dimen/radius_card"/>
+        </shape>
+    </item>
+    <item android:duration="4500">
+        <shape>
+            <gradient
+                android:startColor="@color/color_primary"
+                android:endColor="@color/color_primary_dark"
+                android:angle="135"/>
+            <corners
+                android:bottomLeftRadius="@dimen/radius_card"
+                android:bottomRightRadius="@dimen/radius_card"/>
+        </shape>
+    </item>
+    <item android:duration="4500">
+        <shape>
+            <gradient
+                android:startColor="@color/color_primary"
+                android:endColor="@color/color_primary_dark"
+                android:angle="45"/>
+            <corners
+                android:bottomLeftRadius="@dimen/radius_card"
+                android:bottomRightRadius="@dimen/radius_card"/>
+        </shape>
+    </item>
+</animation-list>

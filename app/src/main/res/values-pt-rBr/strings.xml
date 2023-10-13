@@ -1,0 +1,188 @@
+<resources>
+   <string name="app_name">Small Work</string>
+   <string name="lorem_small">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nulla egestas tristique porttitor.
+    </string>
+   <string name="welcome">Welcome</string>
+   <string name="login_with_google">Login com Google</string>
+   <string name="login_with_facebook">Login com Facebook</string>
+   <string name="login_with_email">Login com e-mail</string>
+   <string name="dont_have_account_sign_up">Não tem conta?<b> Cadastre-se</b></string>
+   <string name="email">E-mail</string>
+   <string name="password">Senha</string>
+   <string name="forgot_password_recover">Esqueceu sua senha? <b>Toque aqui</b></string>
+   <string name="login">Login</string>
+   <string name="username">Nome de usuário</string>
+   <string name="confirm_password">Confirmar senha</string>
+   <string name="accept_the">Aceitar o</string>
+   <string name="sign_up">Entrar</string>
+   <string name="terms_and_conditions">Termos e condições de uso</string>
+
+   <string name="lorem">Lorem Ipsum</string>
+   <string name="lorem_medium">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada est eu nisi maximus eleifend.
+        Quisque tincidunt et lorem quis congue. Aenean blandit malesuada mi, sed auctor magna semper ultricies.
+    </string>
+
+   <string name="terms_and_conditions_desc">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada est eu nisi maximus eleifend.
+        Quisque tincidunt et lorem quis congue. Aenean blandit malesuada mi, sed auctor magna semper ultricies. Pellentesque sed vestibulum mauris. Aenean imperdiet lacus augue, ac auctor erat gravida vitae. Sed ac iaculis dui, a tempus mauris. Nullam in dolor id risus egestas tempor.
+        Sed scelerisque quam urna, eu laoreet diam ultricies hendrerit.
+        Etiam purus leo, rutrum mollis posuere et, lobortis in sem."\n\n
+        "Duis eu tempus enim. Nullam ut leo vel mi pellentesque venenatis sit amet sed tortor.
+        Etiam sed gravida dolor, nec vestibulum velit. Aenean enim orci, dictum vel eleifend id,
+        vehicula vel diam. Cras ultrices rhoncus aliquam."\n\n
+        "Ut faucibus leo felis, non molestie tellus cursus vitae. Nunc velit nisi,
+        tempus id elit eu, molestie accumsan metus. Etiam pulvinar eget metus nec sagittis.
+        Etiam varius, lorem vel tristique faucibus, nunc felis sollicitudin odio,
+        quis sodales velit ex eu turpis. Donec ut accumsan lacus. Donec eros nisi,
+        aliquet in sodales quis, cursus sed ex. Praesent tincidunt eget nulla eget suscipit.
+        Vestibulum scelerisque ornare tempus. Maecenas at volutpat odio. Donec finibus nibh sem,
+        varius pretium dui tempus et. Donec quis pellentesque libero, eget ultricies ex.
+        Praesent id venenatis turpis, at aliquet justo."\n\n
+    </string>
+
+   <string name="finish">Finalizar</string>
+   <string name="home">Home</string>
+   <string name="order">Pedidos</string>
+   <string name="chat">Chat</string>
+   <string name="menu">Menu</string>
+   <string name="categories">Categorias</string>
+   <string name="professionals">Profissionais</string>
+   <string name="contracts">Contratos</string>
+   <string name="status">Status:</string>
+   <string name="cost">Custo:</string>
+   <string name="advertise_your_work">Anucie seu serviço</string>
+   <string name="payments">Pagamentos</string>
+   <string name="help">Ajuda</string>
+   <string name="common_questions">Perguntas Frequentes</string>
+   <string name="settings">Configurações</string>
+   <string name="logout">Sair</string>
+   <string name="about_small_work">Sobre o Small Work</string>
+   <string name="date">Data:</string>
+   <string name="profile">Perfil</string>
+   <string name="details">Detalhes</string>
+   <string name="contacts">Contatos</string>
+   <string name="rating">Avaliação</string>
+   <string name="ratings">Avaliações</string>
+   <string name="social_networks">Redes Sociais</string>
+   <string name="description">Descrição</string>
+   <string name="address">Endereço</string>
+   <string name="locality">Localidade</string>
+   <string name="contract_type">Tipo de Contrato</string>
+   <string name="value">Valor</string>
+   <string name="request_services">Solicitar Serviços</string>
+   <string name="overall">Geral</string>
+   <string name="select_the_services">Selecione o(s) serviço(s)</string>
+   <string name="credit_card_online">Cartão de Crédito (Online)</string>
+   <string name="credit_card_personally">Cartão de Crédito (Presencial)</string>
+   <string name="debit_card_personally">Cartão de Débito (Presencial)</string>
+   <string name="pix_personally">PIX (Presencial)</string>
+   <string name="sw_app_wallet">Carteira do SW App - Você tem R$500</string>
+   <string name="money_personally">Dinheiro (Presencial)</string>
+   <string name="combine_with_the_professional">Combine com o profissional</string>
+   <string name="tell_us_what_you_need">Diga-nos o que você precisa</string>
+   <string name="select_the_payment_method">Selecione o método de pagamento</string>
+   <string name="hire">Contratar</string>
+   <string name="request_contract">Solicitar Contrato</string>
+   <string name="success">Sucesso!</string>
+   <string name="your_request_has_been_sent">Sua solicitação foi enviada, aguarde o contato do profissional.</string>
+   <string name="go_to_home">Ir para a Página Inicial</string>
+   <string name="go_to_contracts">Ir para os Contratos</string>
+   <string name="services">Serviços</string>
+   <string name="payment_method">Método de Pagamento</string>
+   <string name="opening">Abertura</string>
+   <string name="closure">Encerramento</string>
+   <string name="hire_again">Contratar Novamente</string>
+   <string name="evaluate">Avaliar</string>
+   <string name="name">Nome</string>
+   <string name="cell_phone">Telefone Celular</string>
+   <string name="save">Salvar</string>
+   <string name="this_page_is_in_development">Esta página está em desenvolvimento</string>
+   <string name="coming_soon">Em Breve</string>
+   <string name="confirm">Confirmar</string>
+   <string name="ok">OK</string>
+   <string name="error_get_user_data">Erro ao obter dados do usuário.</string>
+   <string name="failure">Falha</string>
+   <string name="accept_use_terms">Aceite os termos de uso para concluir seu registro.</string>
+   <string name="success_sign_up">Registro concluído com sucesso</string>
+   <string name="type_your_password">Digite sua senha.</string>
+   <string name="small_password">A senha deve ter pelo menos 6 dígitos.</string>
+   <string name="no_number_password">A senha deve conter pelo menos um número.</string>
+   <string name="type_your_name">Digite seu nome.</string>
+   <string name="contain_number_name">O nome não pode conter números.</string>
+   <string name="type_your_email">Digite seu e-mail</string>
+   <string name="type_your">Digite o seu %1$s</string>
+   <string name="email_invalid">O e-mail deve ser preenchido em um formato válido.</string>
+   <string name="password_not_match">As senhas não coincidem.</string>
+   <string name="user_collision_exception">O e-mail informado já está registrado.</string>
+   <string name="user_sign_up_exception">Erro ao registrar o usuário</string>
+   <string name="email_not_register">E-mail não registrado.</string>
+   <string name="email_or_password_incorrect">E-mail ou senha incorretos, tente novamente.</string>
+   <string name="error">Erro</string>
+   <string name="read_and_accept_use_terms_and_conditions">Li e aceito os termos e condições de uso.</string>
+   <string name="schedule">Agenda</string>
+   <string name="type_here_to_edit">Digite aqui para editar</string>
+   <string name="type_here_to_add">Digite aqui para adicionar</string>
+   <string name="edit">Editar</string>
+   <string name="update">Atualizar</string>
+   <string name="profession">Profissão</string>
+   <string name="state">Estado</string>
+   <string name="city">Cidade</string>
+   <string name="neighborhood">Bairro</string>
+   <string name="street">Rua</string>
+   <string name="number">Número</string>
+   <string name="complement">Complemento</string>
+   <string name="address_update">Atualização de Endereço</string>
+   <string name="postal_code">Código Postal</string>
+   <string name="linkedin">LinkedIn</string>
+   <string name="instagram">Instagram</string>
+   <string name="facebook">Facebook</string>
+   <string name="twitter">Twitter</string>
+   <string name="you_need_permissions">Você precisa aceitar as permissões da câmera para continuar.</string>
+   <string name="no_workers_found">Nenhum trabalhador encontrado</string>
+   <string name="uninformed">Não informado</string>
+   <string name="daily">Diário:</string>
+   <string name="active_pro_msg">Ao escolher anunciar na plataforma Small Work, você automaticamente concorda com os <b><u>termos e condições</u></b> de uso do serviço. Deseja continuar com a confirmação?</string>
+   <string name="cancel">Cancelar</string>
+   <string name="what_is_your_daily_rate">Qual é a sua taxa diária?</string>
+   <string name="you_will_have_the_ability_to_edit_this_value_in_your_profile_at_any_time">Você terá a capacidade de editar esse valor em seu perfil a qualquer momento.</string>
+   <string name="you_are_professional_now">Sucesso, agora você é um profissional.</string>
+   <string name="no_services_solicitation">Nenhuma solicitação de serviços</string>
+   <string name="requests">Solicitações</string>
+   <string name="login_as_user">Login como usuário</string>
+   <string name="login_as_worker">Login como trabalhador</string>
+   <string name="confirm_request">Confirmar Solicitação</string>
+   <string name="confirm_request_msg">Após confirmar a solicitação, aguarde a confirmação do trabalhador.</string>
+   <string name="ordering_please_wait">Pedindo, aguarde</string>
+   <string name="requests_success">Solicitação feita com sucesso</string>
+   <string name="pending">Pendente</string>
+   <string name="requested">Solicitado:</string>
+   <string name="reject">Rejeitar</string>
+   <string name="accept">Aceitar</string>
+   <string name="accept_request">Aceitar solicitação</string>
+   <string name="accept_request_msg">Toque em CONFIRMAR para aceitar a solicitação</string>
+   <string name="decline_request">Rejeitar solicitação</string>
+   <string name="success_decline_request">Solicitação rejeitada com sucesso</string>
+   <string name="success_accept_request">Solicitação aceita com sucesso</string>
+   <string name="failure_decline_request">Falha ao rejeitar solicitação</string>
+   <string name="failure_accept_request">Falha ao aceitar solicitação</string>
+   <string name="decline_request_msg">Toque em REJEITAR para recusar a solicitação</string>
+   <string name="accepted">Aceito</string>
+   <string name="declined">Recusado</string>
+   <string name="canceled">Cancelado</string>
+   <string name="completed">Concluído</string>
+   <string name="your_daily">Sua diária:</string>
+   <string name="finish_request">Concluir Solicitação</string>
+   <string name="new_request">Nova solicitação</string>
+   <string name="you_have_request">Você tem uma nova solicitação de serviço.</string>
+   <string name="request_accept">Solicitação aceita</string>
+   <string name="request_decline">Solicitação rejeitada</string>
+   <string name="your_request_has_been_accept">Sua solicitação foi aceita</string>
+   <string name="your_request_was_decline">Sua solicitação foi rejeitada</string>
+   <string name="request_finished">Solicitação concluída</string>
+   <string name="request_canceled">Solicitação cancelada</string>
+   <string name="your_request_has_been_finish">Sua solicitação foi concluída</string>
+   <string name="your_request_canceled">Sua solicitação foi cancelada</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="@color/color_primary"
+   tools:context=".ui.fragments.main.home.request.RequestFrag">
+
+   <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/navigation_size"
+      android:elevation="0dp"
+      app:layout_scrollFlags="scroll|enterAlways"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+      <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/details"
+         android:textColor="@color/white"
+         android:textSize="@dimen/text_size6"
+         android:drawablePadding="@dimen/margin_size4"
+         android:textStyle="bold"
+         android:fontFamily="@font/app_regular"
+         app:drawableStartCompat="@drawable/ic_left_arrow_simple"/>
+
+   </androidx.appcompat.widget.Toolbar>
+
+   <androidx.core.widget.NestedScrollView
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/toolbar"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:fillViewport="true">
+
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginStart="@dimen/margin_size5"
+         android:layout_marginEnd="@dimen/margin_size5"
+         android:gravity="center|top"
+         android:orientation="vertical">
+
+         <include layout="@layout/details_contract_header" />
+
+
+         <androidx.cardview.widget.CardView
+            android:id="@+id/profileCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="@dimen/margin_size3"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="@dimen/margin_size6"
+            app:cardBackgroundColor="@color/card"
+            app:cardCornerRadius="@dimen/radius_card">
+            <include layout="@layout/details_contract_body" />
+         </androidx.cardview.widget.CardView>
+
+
+         <Button
+            android:id="@+id/hireBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="@dimen/margin_size9"
+            android:textAllCaps="true"
+            android:background="@drawable/button_accent"
+            android:text="@string/finish_request"
+            android:fontFamily="@font/app_regular"
+            android:textSize="@dimen/text_size4"
+            android:textColor="@color/white" />
+
+      </LinearLayout>
+
+   </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

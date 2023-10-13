@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_primary">#1F2020</color>
+    <color name="color_primary_dark">#101010</color>
+    <color name="color_on_primary">#1F2020</color>
+    <color name="text">#E5EFEF</color>
+    <color name="hint">#2C3030</color>
+    <color name="turquoise">#36BFB1</color>
+    <color name="blue">#043540</color>
+    <color name="orange">#FF8B19</color>
+    <color name="luminous_blue">#00BCD4</color>
+    <color name="card">#E5EFEF</color>
+    <color name="yellow">#FBD358</color>
+    <color name="green">#4AAF4E</color>
+    <color name="red">#F44336</color>
+</resources>

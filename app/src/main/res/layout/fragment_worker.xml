@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:background="@color/card"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent">
+
+   <com.google.android.material.appbar.AppBarLayout
+      android:id="@+id/appBarLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/bg_anim_profile"
+      android:elevation="0dp"
+      app:elevation="0dp">
+
+      <androidx.appcompat.widget.Toolbar
+         android:id="@+id/toolbar"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/navigation_size"
+         android:elevation="0dp"
+         app:layout_scrollFlags="scroll|enterAlways">
+
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size6"
+            android:drawablePadding="@dimen/margin_size4"
+            android:textStyle="bold"
+            android:fontFamily="@font/app_regular"
+            app:drawableStartCompat="@drawable/ic_left_arrow_simple" />
+
+      </androidx.appcompat.widget.Toolbar>
+
+      <View
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="@color/white"/>
+
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size4"
+            android:layout_marginStart="@dimen/margin_size4"
+            android:layout_marginEnd="@dimen/margin_size4"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+               android:id="@+id/img_avatar"
+               android:layout_width="@dimen/img_size_medium"
+               android:layout_height="@dimen/img_size_medium"
+               android:padding="2dp"
+               android:scaleType="centerCrop"
+               app:shapeAppearanceOverlay="@style/RoundedImageView"
+               app:srcCompat="@drawable/profile"
+               app:strokeColor="@color/white"
+               app:strokeWidth="1dp" />
+
+            <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <TextView
+                  android:id="@+id/txt_name"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="@dimen/margin_size3"
+                  android:layout_marginEnd="@dimen/margin_size3"
+                  android:text="@string/username"
+                  android:fontFamily="@font/app_regular"
+                  android:textColor="@color/white"
+                  android:textSize="@dimen/text_size4" />
+
+               <TextView
+                  android:id="@+id/txt_profession"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="@dimen/margin_size3"
+                  android:layout_marginEnd="@dimen/margin_size3"
+                  tools:text="Android Developer"
+                  android:fontFamily="@font/app_regular"
+                  android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.tabs.TabLayout
+               android:id="@+id/tabLayout"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_margin="@dimen/margin_size3"
+               android:layout_weight="1"
+               android:background="@drawable/tab_selected"
+               app:tabTextAppearance="@style/TabText">
+
+               <com.google.android.material.tabs.TabItem
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/details" />
+
+               <com.google.android.material.tabs.TabItem
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/ratings" />
+
+               <com.google.android.material.tabs.TabItem
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/contracts" />
+
+            </com.google.android.material.tabs.TabLayout>
+
+         </LinearLayout>
+
+      </LinearLayout>
+
+   </com.google.android.material.appbar.AppBarLayout>
+
+   <include
+      android:id="@+id/app_container_pro"
+      layout="@layout/container_pro_profile" />
+
+   <TextView
+      android:id="@+id/txt_request"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/button_size"
+      android:layout_gravity="bottom|center"
+      android:background="@drawable/button"
+      android:text="@string/request_services"
+      android:textColor="@color/white"
+      android:textAllCaps="true"
+      android:layout_margin="@dimen/margin_size9"
+      android:gravity="center"
+      android:fontFamily="@font/app_regular"
+      android:textSize="@dimen/text_size4"
+      app:layout_anchor="@id/app_container_pro"
+      app:layout_anchorGravity="bottom|center" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

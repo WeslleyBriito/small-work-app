@@ -1,0 +1,190 @@
+<resources>
+   <string name="app_name">Small Work</string>
+   <string name="lorem_small">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nulla egestas tristique porttitor.
+    </string>
+   <string name="welcome">Welcome</string>
+   <string name="login_with_google">Login with Google</string>
+   <string name="login_with_facebook">Login with Facebook</string>
+   <string name="login_with_email">Login with e-mail</string>
+   <string name="dont_have_account_sign_up">Don\'t have an account?<b> Sign up</b></string>
+   <string name="email">E-mail</string>
+   <string name="password">Password</string>
+   <string name="forgot_password_recover">Forgot password? <b>Recover Here</b></string>
+   <string name="login">Login</string>
+   <string name="username">Username</string>
+   <string name="confirm_password">Confirm Password</string>
+   <string name="accept_the">Accept the</string>
+   <string name="sign_up">Sign Up</string>
+   <string name="terms_and_conditions">Terms and Conditions</string>
+
+   <string name="lorem">Lorem Ipsum</string>
+   <string name="lorem_medium">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada est eu nisi maximus eleifend.
+        Quisque tincidunt et lorem quis congue. Aenean blandit malesuada mi, sed auctor magna semper ultricies.
+    </string>
+
+   <string name="terms_and_conditions_desc">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada est eu nisi maximus eleifend.
+        Quisque tincidunt et lorem quis congue. Aenean blandit malesuada mi, sed auctor magna semper ultricies. Pellentesque sed vestibulum mauris. Aenean imperdiet lacus augue, ac auctor erat gravida vitae. Sed ac iaculis dui, a tempus mauris. Nullam in dolor id risus egestas tempor.
+        Sed scelerisque quam urna, eu laoreet diam ultricies hendrerit.
+        Etiam purus leo, rutrum mollis posuere et, lobortis in sem."\n\n
+        "Duis eu tempus enim. Nullam ut leo vel mi pellentesque venenatis sit amet sed tortor.
+        Etiam sed gravida dolor, nec vestibulum velit. Aenean enim orci, dictum vel eleifend id,
+        vehicula vel diam. Cras ultrices rhoncus aliquam."\n\n
+        "Ut faucibus leo felis, non molestie tellus cursus vitae. Nunc velit nisi,
+        tempus id elit eu, molestie accumsan metus. Etiam pulvinar eget metus nec sagittis.
+        Etiam varius, lorem vel tristique faucibus, nunc felis sollicitudin odio,
+        quis sodales velit ex eu turpis. Donec ut accumsan lacus. Donec eros nisi,
+        aliquet in sodales quis, cursus sed ex. Praesent tincidunt eget nulla eget suscipit.
+        Vestibulum scelerisque ornare tempus. Maecenas at volutpat odio. Donec finibus nibh sem,
+        varius pretium dui tempus et. Donec quis pellentesque libero, eget ultricies ex.
+        Praesent id venenatis turpis, at aliquet justo."\n\n
+    </string>
+
+   <string name="finish">Finish</string>
+   <string name="home">Home</string>
+   <string name="order">Order</string>
+   <string name="chat">Chat</string>
+   <string name="menu">Menu</string>
+   <!-- TODO: Remove or change this placeholder text -->
+   <string name="hello_blank_fragment">Hello blank fragment</string>
+   <string name="categories">Categories</string>
+   <string name="professionals">Professionals</string>
+   <string name="contracts">Contracts</string>
+   <string name="status">Status:</string>
+   <string name="cost">Cost:</string>
+   <string name="advertise_your_work">Advertise Your work</string>
+   <string name="payments">Payments</string>
+   <string name="help">Help</string>
+   <string name="common_questions">Common Questions</string>
+   <string name="settings">Settings</string>
+   <string name="logout">Logout</string>
+   <string name="about_small_work">About Small Work</string>
+   <string name="date">Date:</string>
+   <string name="profile">Profile</string>
+   <string name="details">Details</string>
+   <string name="contacts">Contacts</string>
+   <string name="rating">Rating</string>
+   <string name="ratings">Ratings</string>
+   <string name="social_networks">Social Networks</string>
+   <string name="description">Description</string>
+   <string name="address">Address</string>
+   <string name="locality">Locality</string>
+   <string name="contract_type">Contract Type</string>
+   <string name="value">Value</string>
+   <string name="request_services">Request Services</string>
+   <string name="overall">Overall</string>
+   <string name="select_the_services">Select the service(s)</string>
+   <string name="credit_card_online">Credit Card (Online)</string>
+   <string name="credit_card_personally">Credit Card (Personally)</string>
+   <string name="debit_card_personally">Debit Card (Personally)</string>
+   <string name="pix_personally">PIX (Personally)</string>
+   <string name="sw_app_wallet">SW App Wallet - You have R$500</string>
+   <string name="money_personally">Money (Personally)</string>
+   <string name="combine_with_the_professional">Combine with the professional</string>
+   <string name="tell_us_what_you_need">Tell us what you need</string>
+   <string name="select_the_payment_method">Select the payment method</string>
+   <string name="hire">Hire</string>
+   <string name="request_contract">Request Contract</string>
+   <string name="success">Success!</string>
+   <string name="your_request_has_been_sent">Your request has been sent, please wait for the professional contact.</string>
+   <string name="go_to_home">Go to Home</string>
+   <string name="go_to_contracts">Go to Contracts</string>
+   <string name="services">Services</string>
+   <string name="payment_method">Payment Method</string>
+   <string name="opening">Opening</string>
+   <string name="closure">Closure</string>
+   <string name="hire_again">Hire Again</string>
+   <string name="evaluate">Evaluate</string>
+   <string name="name">Name</string>
+   <string name="cell_phone">Cell Phone</string>
+   <string name="save">Save</string>
+   <string name="this_page_is_in_development">This page is in development</string>
+   <string name="coming_soon">Coming Soon</string>
+   <string name="confirm">Confirm</string>
+   <string name="ok">OK</string>
+   <string name="error_get_user_data">Error get user data.</string>
+   <string name="failure">" Failure"</string>
+   <string name="accept_use_terms">"Accept the user terms to finalize your registration."</string>
+   <string name="success_sign_up">Success your sign up</string>
+   <string name="type_your_password">Type your password.</string>
+   <string name="small_password">Password must be at least 6 digits.</string>
+   <string name="no_number_password">"Password must contain at least one number."</string>
+   <string name="type_your_name">Type your name.</string>
+   <string name="contain_number_name">Name cannot contain numbers.</string>
+   <string name="type_your_email">Type your email</string>
+   <string name="type_your">Type your %1$s</string>
+   <string name="email_invalid">E-mail must be filled in a valid format.</string>
+   <string name="password_not_match">Passwords do not match.</string>
+   <string name="user_collision_exception">"Informed email has already been registered."</string>
+   <string name="user_sign_up_exception">Error to sign up user</string>
+   <string name="email_not_register">Email not registered.</string>
+   <string name="email_or_password_incorrect">Email or password incorrect please try again.</string>
+   <string name="error">Error</string>
+   <string name="read_and_accept_use_terms_and_conditions">I read and I accept the use terms and conditions.</string>
+   <string name="schedule">Schedule</string>
+   <string name="type_here_to_edit">Type here to edit</string>
+   <string name="type_here_to_add">Type here to add</string>
+   <string name="edit">Edit</string>
+   <string name="update">Update</string>
+   <string name="profession">Profession</string>
+   <string name="state">State</string>
+   <string name="city">City</string>
+   <string name="neighborhood">Neighborhood</string>
+   <string name="street">Street</string>
+   <string name="number">Number</string>
+   <string name="complement">Complement</string>
+   <string name="address_update">Address Update</string>
+   <string name="postal_code">Postal Code</string>
+   <string name="linkedin">Linkedin</string>
+   <string name="instagram">Instagram</string>
+   <string name="facebook">Facebook</string>
+   <string name="twitter">Twitter</string>
+   <string name="you_need_permissions">You need accept camera permissions to continue.</string>
+   <string name="no_workers_found">no workers found</string>
+   <string name="uninformed">Uninformed</string>
+   <string name="daily">Daily:</string>
+   <string name="active_pro_msg">By choosing to advertise on the SmallWork platform, you will automatically be agreeing to the <b><u>terms and conditions</u></b> of service usage. Would you like to proceed with the confirmation?</string>
+   <string name="cancel">Cancel</string>
+   <string name="what_is_your_daily_rate">What is your daily rate?</string>
+   <string name="you_will_have_the_ability_to_edit_this_value_in_your_profile_at_any_time">You will have the ability to edit this value in your profile at any time.</string>
+   <string name="you_are_professional_now">Success, you are professional now.</string>
+   <string name="no_services_solicitation">No services request</string>
+   <string name="requests">Requests</string>
+   <string name="login_as_user">Login as user</string>
+   <string name="login_as_worker">Login as worker</string>
+   <string name="confirm_request">Confirm Request</string>
+   <string name="confirm_request_msg">After confirming the request, wait for worker confirmation.</string>
+   <string name="ordering_please_wait">Ordering, please wait</string>
+   <string name="requests_success">request made successfully</string>
+   <string name="pending">Pending</string>
+   <string name="requested">Requested:</string>
+   <string name="reject">Decline</string>
+   <string name="accept">Accept</string>
+   <string name="accept_request">Accept request</string>
+   <string name="accept_request_msg">Tap CONFIRM to accept the request</string>
+   <string name="decline_request">Decline request</string>
+   <string name="success_decline_request">Success to decline request</string>
+   <string name="success_accept_request">Accept request with success</string>
+   <string name="failure_decline_request">Failure to decline request</string>
+   <string name="failure_accept_request">Failure to accept request</string>
+   <string name="decline_request_msg">Tap DECLINE to reject the request</string>
+   <string name="accepted">Accepted</string>
+   <string name="declined">Declined</string>
+   <string name="canceled">Canceled</string>
+   <string name="completed">Finished</string>
+   <string name="your_daily">Your daily:</string>
+   <string name="finish_request">Finish Request</string>
+   <string name="new_request">New request</string>
+   <string name="you_have_request">You have a new service request.</string>
+   <string name="request_accept">Request accept</string>
+   <string name="request_decline">Request decline</string>
+   <string name="your_request_has_been_accept">Your request has been accept</string>
+   <string name="your_request_was_decline">Your request was decline</string>
+   <string name="request_finished">Request finished</string>
+   <string name="request_canceled">Request canceled</string>
+   <string name="your_request_has_been_finish">Your request has been finish</string>
+   <string name="your_request_canceled">Your request was cancel</string>
+</resources>

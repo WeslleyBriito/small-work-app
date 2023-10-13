@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   android:padding="@dimen/margin_size3">
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/margin_size3"
+      android:fontFamily="@font/app_regular"
+      android:gravity="center|start"
+      android:text="@string/description"
+      android:textSize="@dimen/text_size4" />
+
+   <TextView
+      android:id="@+id/txt_desc"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/margin_size3"
+      android:drawablePadding="@dimen/margin_size2"
+      android:fontFamily="@font/app_regular"
+      android:gravity="center|start"
+      android:textColor="@color/black"
+      android:textSize="@dimen/text_size4"
+      tools:text="@string/lorem_medium" />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/margin_size3"
+      android:drawablePadding="@dimen/margin_size2"
+      android:fontFamily="@font/app_regular"
+      android:gravity="center|start"
+      android:text="@string/locality"
+      android:textSize="@dimen/text_size4" />
+
+   <TextView
+      android:id="@+id/txt_locality"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/margin_size1"
+      android:drawablePadding="@dimen/margin_size2"
+      android:fontFamily="@font/app_regular"
+      android:gravity="center|start"
+      android:textColor="@color/black"
+      android:textSize="@dimen/text_size4"
+      tools:text="Morro Santana - Porto Alegre, RS" />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/app_regular"
+      android:gravity="center|start"
+      android:text="@string/contract_type"
+      android:visibility="gone"
+      android:textSize="@dimen/text_size4" />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/margin_size3"
+      android:fontFamily="@font/app_regular"
+      android:gravity="center|start"
+      android:textColor="@color/black"
+      android:textSize="@dimen/text_size4"
+      android:visibility="gone"
+      tools:text="Agendamento, A Combinar" />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawablePadding="@dimen/margin_size2"
+      android:fontFamily="@font/app_regular"
+      android:gravity="center|start"
+      android:text="@string/value"
+      android:textSize="@dimen/text_size4" />
+
+   <TextView
+      android:id="@+id/txt_value"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/margin_size3"
+      android:drawablePadding="@dimen/margin_size2"
+      android:fontFamily="@font/app_regular"
+      android:gravity="center|start"
+      android:textColor="@color/black"
+      android:textSize="@dimen/text_size4"
+      tools:text="Diária: 300R$  Hora: A Combinar" />
+
+</LinearLayout>

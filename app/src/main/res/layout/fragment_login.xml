@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   tools:context=".ui.fragments.auth.login.LoginFrag">
+
+   <include layout="@layout/guideline_top" />
+
+   <include layout="@layout/guideline_start" />
+
+   <include layout="@layout/guideline_end" />
+
+   <ImageView
+      android:id="@+id/img_logo"
+      android:layout_width="@dimen/img_size_big"
+      android:layout_height="@dimen/img_size_normal"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/guideline_top"
+      app:srcCompat="@drawable/logo"
+      app:tint="@color/card" />
+
+   <androidx.cardview.widget.CardView
+      android:id="@+id/cardView"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="32dp"
+      app:cardBackgroundColor="@color/card"
+      app:cardCornerRadius="@dimen/radius_card"
+      app:layout_constraintBottom_toTopOf="@+id/btn_back"
+      app:layout_constraintEnd_toEndOf="@+id/guideline_end"
+      app:layout_constraintStart_toStartOf="@+id/guideline_start"
+      app:layout_constraintTop_toBottomOf="@+id/img_logo">
+
+      <LinearLayout
+         android:id="@+id/componentsContainerLL"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/margin_size6"
+         android:orientation="vertical">
+
+         <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_size1"
+            android:backgroundTint="@android:color/transparent"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="@dimen/margin_size2"
+            android:hint="@string/email"
+            android:drawableTint="@color/color_primary"
+            android:textColorHint="@color/color_primary"
+            android:textColor="@color/color_primary_dark"
+            android:inputType="textEmailAddress" />
+
+         <include layout="@layout/div_auth" />
+
+         <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size1"
+            android:layout_marginBottom="@dimen/margin_size1"
+            android:backgroundTint="@android:color/transparent"
+            android:drawableStart="@drawable/ic_key"
+            android:drawablePadding="@dimen/margin_size2"
+            android:inputType="textPassword"
+            android:drawableTint="@color/color_primary"
+            android:textColorHint="@color/color_primary"
+            android:textColor="@color/color_primary_dark"
+            android:hint="@string/password" />
+
+         <include layout="@layout/div_auth" />
+
+         <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+         <TextView
+            android:id="@+id/recoverPasswordTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/forgot_password_recover"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+      </LinearLayout>
+
+   </androidx.cardview.widget.CardView>
+
+   <ImageButton
+      android:id="@+id/btn_back"
+      android:layout_width="@dimen/button_size_back"
+      android:layout_height="@dimen/button_size_back"
+      android:layout_marginTop="32dp"
+      android:layout_marginBottom="32dp"
+      android:background="@android:color/transparent"
+      android:scaleType="fitCenter"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/cardView"
+      app:layout_constraintStart_toStartOf="@+id/cardView"
+      app:layout_constraintTop_toBottomOf="@+id/cardView"
+      app:layout_constraintVertical_bias="0.40"
+      app:srcCompat="@drawable/ic_left_arrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

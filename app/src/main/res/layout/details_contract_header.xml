@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:orientation="horizontal"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+       android:id="@+id/profileCard"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="2dp"
+       android:layout_marginTop="@dimen/margin_size3"
+       android:layout_marginEnd="2dp"
+       android:layout_marginBottom="@dimen/margin_size6"
+       app:cardBackgroundColor="@color/card"
+       app:cardCornerRadius="@dimen/radius_card">
+
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/margin_size3"
+           android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+               android:id="@+id/img_avatar"
+               android:layout_width="@dimen/img_size_small"
+               android:layout_height="@dimen/img_size_small"
+               android:layout_margin="4dp"
+               android:padding="2dp"
+               android:scaleType="centerCrop"
+               app:shapeAppearanceOverlay="@style/RoundedImageView"
+               app:srcCompat="@drawable/profile"
+               app:strokeColor="@color/color_on_primary"
+               app:strokeWidth="1dp" />
+
+            <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginEnd="6dp"
+               android:orientation="vertical">
+
+                <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/margin_size2"
+                   android:orientation="horizontal">
+
+                    <TextView
+                       android:id="@+id/txt_name"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/app_regular"
+                       android:textColor="@color/color_primary"
+                       android:textSize="@dimen/text_size4"
+                       android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                   android:id="@+id/txt_email"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:fontFamily="@font/app_regular"
+                   android:textAlignment="textStart"
+                   android:textColor="@color/color_primary" />
+
+                <RatingBar
+                   android:id="@+id/rating"
+                   style="@android:style/Widget.Material.RatingBar.Small"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:numStars="5"
+                   android:progressTint="@color/color_on_primary"
+                   android:rating="5" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical">
+
+   <include layout="@layout/msg_empty_list_dark"/>
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawablePadding="@dimen/margin_size2"
+      android:gravity="center|start"
+      android:padding="@dimen/margin_size3"
+      android:textSize="@dimen/text_size4"
+      app:drawableStartCompat="@drawable/ic_browser"
+      tools:text="www.developer.com.br" />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawablePadding="@dimen/margin_size2"
+      android:gravity="center|start"
+      android:padding="@dimen/margin_size3"
+      android:textSize="@dimen/text_size4"
+      app:drawableStartCompat="@drawable/ic_email"
+      tools:text="weslley.briito@outlook.com" />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawablePadding="@dimen/margin_size2"
+      android:gravity="center|start"
+      android:padding="@dimen/margin_size3"
+      android:textSize="@dimen/text_size4"
+      app:drawableStartCompat="@drawable/ic_whatsapp"
+      tools:text="+55 51 99704-3104 " />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/margin_size3"
+      android:drawablePadding="@dimen/margin_size2"
+      android:gravity="center|start"
+      android:padding="@dimen/margin_size3"
+      android:textSize="@dimen/text_size4"
+      app:drawableStartCompat="@drawable/ic_phone_call"
+      tools:text="+55 51 9704-3104 " />
+
+   <include layout="@layout/div" />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/margin_size3"
+      android:drawablePadding="@dimen/margin_size2"
+      android:gravity="center|start"
+      android:padding="@dimen/margin_size3"
+      android:text="@string/social_networks"
+      android:textSize="@dimen/text_size4" />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawablePadding="@dimen/margin_size2"
+      android:gravity="center|start"
+      android:padding="@dimen/margin_size3"
+      android:textSize="@dimen/text_size4"
+      app:drawableStartCompat="@drawable/ic_linkedin"
+      tools:text="Linkedin" />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawablePadding="@dimen/margin_size2"
+      android:gravity="center|start"
+      android:padding="@dimen/margin_size3"
+      android:textSize="@dimen/text_size4"
+      app:drawableStartCompat="@drawable/ic_instagram"
+      tools:text="Instagram" />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawablePadding="@dimen/margin_size2"
+      android:gravity="center|start"
+      android:padding="@dimen/margin_size3"
+      android:textSize="@dimen/text_size4"
+      app:drawableStartCompat="@drawable/ic_facebook"
+      tools:text="facebook" />
+
+   <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawablePadding="@dimen/margin_size2"
+      android:gravity="center|start"
+      android:padding="@dimen/margin_size3"
+      android:textSize="@dimen/text_size4"
+      app:drawableStartCompat="@drawable/ic_twitter"
+      tools:text="Twitter" />
+
+</LinearLayout>

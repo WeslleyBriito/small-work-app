@@ -1,0 +1,47 @@
+<resources>
+
+    <dimen name="text_size_super">40sp</dimen>
+
+    <dimen name="text_size9">26sp</dimen>
+    <dimen name="text_size8">24sp</dimen>
+    <dimen name="text_size7">22sp</dimen>
+    <dimen name="text_size6">20sp</dimen>
+    <dimen name="text_size5">18sp</dimen>
+    <dimen name="text_size4">16sp</dimen>
+    <dimen name="text_size3">14sp</dimen>
+    <dimen name="text_size2">12sp</dimen>
+    <dimen name="text_size1">10sp</dimen>
+    <dimen name="text_size0">8sp</dimen>
+
+    <dimen name="margin_size0">4dp</dimen>
+    <dimen name="margin_size1">6dp</dimen>
+    <dimen name="margin_size2">8dp</dimen>
+    <dimen name="margin_size3">10dp</dimen>
+    <dimen name="margin_size4">12dp</dimen>
+    <dimen name="margin_size5">14dp</dimen>
+    <dimen name="margin_size6">16dp</dimen>
+    <dimen name="margin_size7">18dp</dimen>
+    <dimen name="margin_size8">20dp</dimen>
+    <dimen name="margin_size9">22dp</dimen>
+
+    <dimen name="img_size_super">300dp</dimen>
+    <dimen name="img_size_semi_super">200dp</dimen>
+    <dimen name="img_size_big">150dp</dimen>
+    <dimen name="img_size_semi_big">130dp</dimen>
+    <dimen name="img_size_normal">110dp</dimen>
+    <dimen name="img_size_semi_normal">85dp</dimen>
+    <dimen name="img_size_medium">75dp</dimen>
+    <dimen name="img_size_semi_medium">70dp</dimen>
+    <dimen name="img_size_small">65dp</dimen>
+    <dimen name="img_size_mini">50dp</dimen>
+    <dimen name="img_size_icon">20dp</dimen>
+
+    <dimen name="logo_splash">150dp</dimen>
+
+    <dimen name="radius_button">10dp</dimen>
+    <dimen name="radius_card">14dp</dimen>
+    <dimen name="button_size">50dp</dimen>
+    <dimen name="navigation_size">48dp</dimen>
+    <dimen name="button_size_back">60dp</dimen>
+
+</resources>

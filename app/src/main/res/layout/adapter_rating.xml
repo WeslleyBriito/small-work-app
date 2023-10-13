@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:layout_marginStart="@dimen/margin_size3"
+   android:layout_marginEnd="@dimen/margin_size3"
+   android:layout_marginBottom="@dimen/margin_size3"
+   android:orientation="vertical">
+
+   <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/margin_size1"
+      android:orientation="horizontal">
+
+      <RatingBar
+         android:id="@+id/ratingBar"
+         style="@style/Widget.AppCompat.RatingBar.Small"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:numStars="5"
+         android:progressTint="@color/color_on_primary"
+         android:rating="4" />
+
+      <TextView
+         android:id="@+id/dateTxt"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textAlignment="textEnd"
+         android:textColor="@color/color_primary"
+         tools:text="00/00/0000" />
+   </LinearLayout>
+
+   <TextView
+      android:id="@+id/titleTxt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/lorem"
+      android:textColor="@color/color_primary" />
+
+   <TextView
+      android:id="@+id/descTxt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/lorem_small"
+      android:textColor="@color/color_primary_dark" />
+</LinearLayout>

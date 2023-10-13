@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "52197403565",
+    "firebase_url": "https://small-work-app-default-rtdb.firebaseio.com",
+    "project_id": "small-work-app",
+    "storage_bucket": "small-work-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52197403565:android:2d2396c10944cba7e8cf24",
+        "android_client_info": {
+          "package_name": "com.opensystem.smallwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52197403565-2b19239cli7r0vnqh5oou6p2ih0g7ifu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfCrTANfXrgZ6H8WaDgKIiSH_Em6Fn0Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52197403565-2b19239cli7r0vnqh5oou6p2ih0g7ifu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

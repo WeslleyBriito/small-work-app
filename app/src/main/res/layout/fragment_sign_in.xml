@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:fillViewport="true"
+   tools:context=".ui.fragments.auth.signin.SignInFrag">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <include layout="@layout/guideline_top" />
+
+      <include layout="@layout/guideline_start" />
+
+      <include layout="@layout/guideline_end" />
+
+      <ImageView
+         android:id="@+id/logoImg"
+         android:layout_width="@dimen/img_size_big"
+         android:layout_height="@dimen/img_size_normal"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="@+id/guideline_top"
+         app:srcCompat="@drawable/logo"
+         app:tint="@color/card" />
+
+      <TextView
+         android:id="@+id/titleTxt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:text="@string/welcome"
+         android:textColor="@color/white"
+         android:textSize="@dimen/text_size7"
+         android:textStyle="bold"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/logoImg" />
+
+      <TextView
+         android:id="@+id/descTxt"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:text="@string/lorem_small"
+         android:textAlignment="center"
+         android:textColor="@color/white"
+         android:textSize="@dimen/text_size4"
+         app:layout_constraintEnd_toStartOf="@+id/guideline_end"
+         app:layout_constraintStart_toStartOf="@+id/guideline_start"
+         app:layout_constraintTop_toBottomOf="@+id/titleTxt" />
+
+      <Button
+         android:id="@+id/loginGoogleBtn"
+         android:layout_width="0dp"
+         android:layout_height="@dimen/button_size"
+         android:layout_marginTop="32dp"
+         android:layout_marginBottom="12dp"
+         android:background="@drawable/button"
+         android:text="@string/login_with_google"
+         android:textAllCaps="true"
+         android:textColor="@color/white"
+         android:textStyle="bold"
+         app:layout_constraintBottom_toTopOf="@+id/loginFacebookBtn"
+         app:layout_constraintEnd_toStartOf="@+id/guideline_end"
+         app:layout_constraintStart_toStartOf="@+id/guideline_start"
+         app:layout_constraintTop_toBottomOf="@+id/descTxt"
+         app:layout_constraintVertical_bias="0.0"
+         app:layout_constraintVertical_chainStyle="packed" />
+
+      <Button
+         android:id="@+id/loginFacebookBtn"
+         android:layout_width="0dp"
+         android:layout_height="@dimen/button_size"
+         android:layout_marginTop="12dp"
+         android:layout_marginBottom="12dp"
+         android:background="@drawable/button"
+         android:text="@string/login_with_facebook"
+         android:textColor="@color/white"
+         android:textStyle="bold"
+         android:textAllCaps="true"
+         app:layout_constraintBottom_toTopOf="@+id/loginEmailBtn"
+         app:layout_constraintEnd_toStartOf="@+id/guideline_end"
+         app:layout_constraintStart_toStartOf="@+id/guideline_start"
+         app:layout_constraintTop_toBottomOf="@+id/loginGoogleBtn" />
+
+      <Button
+         android:id="@+id/loginEmailBtn"
+         android:layout_width="0dp"
+         android:layout_height="@dimen/button_size"
+         android:layout_marginTop="8dp"
+         android:layout_marginBottom="32dp"
+         android:background="@drawable/button"
+         android:text="@string/login_with_email"
+         android:textColor="@color/white"
+         android:textStyle="bold"
+         android:textAllCaps="true"
+         app:layout_constraintBottom_toTopOf="@+id/singUpTxt"
+         app:layout_constraintEnd_toStartOf="@+id/guideline_end"
+         app:layout_constraintStart_toStartOf="@+id/guideline_start"
+         app:layout_constraintTop_toBottomOf="@+id/loginFacebookBtn" />
+
+      <TextView
+         android:id="@+id/singUpTxt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="32dp"
+         android:text="@string/dont_have_account_sign_up"
+         android:textColor="@color/white"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toStartOf="@+id/guideline_end"
+         app:layout_constraintStart_toStartOf="@+id/guideline_start" />
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

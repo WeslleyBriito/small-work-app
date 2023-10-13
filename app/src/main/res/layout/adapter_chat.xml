@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:layout_marginTop="@dimen/margin_size3"
+   android:orientation="horizontal">
+
+   <com.google.android.material.imageview.ShapeableImageView
+      android:id="@+id/avatarImg"
+      android:layout_width="@dimen/img_size_semi_medium"
+      android:layout_height="@dimen/img_size_semi_medium"
+      android:layout_margin="4dp"
+      android:padding="2dp"
+      android:scaleType="centerInside"
+      app:shapeAppearanceOverlay="@style/RoundedImageView"
+      app:srcCompat="@drawable/profile"
+      app:strokeColor="@color/color_primary"
+      app:strokeWidth="1dp" />
+
+   <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginEnd="6dp"
+      android:orientation="vertical">
+
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="@dimen/margin_size2"
+         android:orientation="horizontal">
+
+         <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:textSize="@dimen/text_size4"
+            android:textStyle="bold"
+            tools:text="Wesley Brito" />
+
+         <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="05"
+            android:textAlignment="textEnd"
+            android:textColor="@color/color_on_primary" />
+      </LinearLayout>
+
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="@dimen/margin_size2"
+         android:orientation="horizontal">
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="preview da mensagem..."
+            android:textAlignment="textStart"
+            android:textColor="@color/text" />
+
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ontem"
+            android:textAlignment="textEnd"
+            android:textColor="@color/text" />
+      </LinearLayout>
+
+   </LinearLayout>
+
+</LinearLayout>
