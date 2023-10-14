@@ -8,8 +8,10 @@ import androidx.lifecycle.ViewModel
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.opensystem.smallwork.database.user.UserRepository
+import com.opensystem.smallwork.models.UAddress
 import com.opensystem.smallwork.models.User
 import com.opensystem.smallwork.utils.Preferences
+import com.opensystem.smallwork.utils.setAppInfo
 
 class SignUpViewModel : ViewModel() {
 
@@ -47,6 +49,7 @@ class SignUpViewModel : ViewModel() {
 
          UserRepository(context).save(user)
          Preferences(context).setLoggedUId(user.id)
+         setAppInfo(user, UAddress())
 
       }.addOnFailureListener { e -> Log.w("User", "Error adding document", e) }
    }

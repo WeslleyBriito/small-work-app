@@ -44,10 +44,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_size4"
             android:layout_marginEnd="@dimen/margin_size4"
+            android:layout_marginBottom="@dimen/margin_size2"
             android:backgroundTint="@android:color/transparent"
             android:gravity="bottom"
             android:hint="@string/postal_code"
             android:maxLength="9"
+            tools:text="teste"
             android:inputType="number"/>
 
       </com.google.android.material.textfield.TextInputLayout>
@@ -61,14 +63,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginStart="@dimen/margin_size4"
+            android:layout_marginEnd="@dimen/margin_size4"
+            android:layout_marginBottom="@dimen/margin_size2"
             app:hintTextAppearance="@style/HintText">
 
             <com.google.android.material.textfield.TextInputEditText
                android:id="@+id/edit_city"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:layout_marginStart="@dimen/margin_size4"
-               android:layout_marginEnd="@dimen/margin_size4"
                android:backgroundTint="@android:color/transparent"
                android:gravity="bottom"
                android:hint="@string/city"
@@ -80,13 +83,14 @@
          <com.google.android.material.textfield.TextInputLayout
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_size4"
+            android:layout_marginBottom="@dimen/margin_size2"
             app:hintTextAppearance="@style/HintText">
 
             <com.google.android.material.textfield.TextInputEditText
                android:id="@+id/edit_state"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:layout_marginEnd="@dimen/margin_size4"
                android:backgroundTint="@android:color/transparent"
                android:gravity="bottom"
                android:hint="@string/state"
@@ -100,14 +104,15 @@
       <com.google.android.material.textfield.TextInputLayout
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
+         android:layout_marginStart="@dimen/margin_size4"
+         android:layout_marginEnd="@dimen/margin_size4"
+         android:layout_marginBottom="@dimen/margin_size2"
          app:hintTextAppearance="@style/HintText">
 
          <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_nbh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_size4"
-            android:layout_marginEnd="@dimen/margin_size4"
             android:backgroundTint="@android:color/transparent"
             android:gravity="bottom"
             android:hint="@string/neighborhood"
@@ -119,14 +124,15 @@
       <com.google.android.material.textfield.TextInputLayout
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
+         android:layout_marginStart="@dimen/margin_size4"
+         android:layout_marginEnd="@dimen/margin_size4"
+         android:layout_marginBottom="@dimen/margin_size2"
          app:hintTextAppearance="@style/HintText">
 
          <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_street"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_size4"
-            android:layout_marginEnd="@dimen/margin_size4"
             android:backgroundTint="@android:color/transparent"
             android:gravity="bottom"
             android:hint="@string/street"
@@ -138,14 +144,15 @@
       <com.google.android.material.textfield.TextInputLayout
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
+         android:layout_marginStart="@dimen/margin_size4"
+         android:layout_marginEnd="@dimen/margin_size4"
+         android:layout_marginBottom="@dimen/margin_size2"
          app:hintTextAppearance="@style/HintText">
 
          <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_size4"
-            android:layout_marginEnd="@dimen/margin_size4"
             android:backgroundTint="@android:color/transparent"
             android:gravity="bottom"
             android:hint="@string/number"
@@ -158,15 +165,15 @@
          android:id="@+id/til_profession"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
+         android:layout_marginStart="@dimen/margin_size4"
+         android:layout_marginEnd="@dimen/margin_size4"
+         android:layout_marginBottom="@dimen/margin_size2"
          app:hintTextAppearance="@style/HintText">
 
          <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_comp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_size4"
-            android:layout_marginEnd="@dimen/margin_size4"
-            android:layout_marginBottom="@dimen/margin_size4"
             android:backgroundTint="@android:color/transparent"
             android:gravity="bottom"
             android:hint="@string/complement"
